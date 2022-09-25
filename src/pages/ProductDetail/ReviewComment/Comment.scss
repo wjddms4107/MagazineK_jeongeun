@@ -1,0 +1,28 @@
+.commentBox {
+  width: 900px;
+  height: auto;
+  
+  .commentItem {
+    display: flex;
+    justify-content: space-between;
+    color: #6e6c6c;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+
+    .userInfo {
+      padding-left: 0.3rem;
+      .star {
+        color: black;
+        font-size: 1.8rem;
+        padding-bottom: 0.8rem;
+      }
+      .comment {
+        color: #6e6c6c;
+        font-size: 1.3rem;
+      }
+      .userId {
+        padding-top: 0.4rem;
+      }
+    }
+  }
+}

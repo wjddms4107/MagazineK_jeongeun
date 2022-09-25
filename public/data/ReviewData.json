@@ -1,0 +1,22 @@
+{
+  "RESULTS": [
+      {
+          "review": 51,
+          "username": "wjddms4107",
+          "content": "좋아하는 브랜드라 구매했는데 역시 좋네요 :)",
+          "rating": "4.0"
+      },
+      {
+          "review": 52,
+          "username": "jeongeuni",
+          "content": "생각보다 볼게 없어요...",
+          "rating": "1.0"
+      },
+      {
+          "review": 53,
+          "username": "abcd1234",
+          "content": "보는데 시간가는 줄 몰랐어요!",
+          "rating": "5.0"
+      }
+  ]
+}

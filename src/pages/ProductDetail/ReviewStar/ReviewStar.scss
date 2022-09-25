@@ -1,0 +1,38 @@
+.reviewTitle {
+  width: 900px;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  text-align: center;
+
+  .review {
+    padding-bottom: 1.5rem ;
+    font-size: 2rem;
+  }
+
+  .reviewH1 {
+    padding-bottom: 1rem ;
+    font-size: 1.4rem;
+  }
+
+  .starRating {
+    padding-top: 0.8rem;
+    padding-bottom: 2.1rem;
+    
+    button {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+      .on {
+        color: #000;
+      }
+      .off {
+        color: #ccc;
+      }
+
+    .star {
+      font-size: 4rem;
+    }    
+  }
+}
