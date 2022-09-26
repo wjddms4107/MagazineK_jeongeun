@@ -18,6 +18,6 @@ function Comment({ data: { content, username, rating } }) {
   );
 }
 
-export default Comment;
+export default React.memo(Comment);
 
 const STAR = ['⭑', '⭑⭑', '⭑⭑⭑', '⭑⭑⭑⭑', '⭑⭑⭑⭑⭑'];

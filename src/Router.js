@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav/Nav';
-import Footer from './components/Footer/Footer';
+import React, { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Nav from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer";
 
-import ProductDetail from './pages/ProductDetail/ProductDetail';
-import Main from './pages/Main/Main';
-import Search from './components/Nav/Search';
-import Login from './pages/Login/Login';
-import SignUp from './pages/SignUp/SignUp';
+import ProductDetail from "./pages/ProductDetail/ProductDetail";
+import Main from "./pages/Main/Main";
+import Search from "./components/Nav/Search";
+import Login from "./pages/Login/Login";
+import SignUp from "./pages/SignUp/SignUp";
 
-import ProductList from './pages/ProductList/ProductList';
+import ProductList from "./pages/ProductList/ProductList";
 
-import Pay from './pages/Pay/Pay';
+import Pay from "./pages/Pay/Pay";
 
 const Router = () => {
   const [modalState, setModalState] = useState(false);

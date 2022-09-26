@@ -2,6 +2,7 @@ import React from 'react';
 import './ReviewStar.scss';
 
 const ReviewStar = ({ rating, setRating, hover, setHover }) => {
+
   return (
     <div className="reviewTitle">
       <div className="review">REVIEW</div>
@@ -29,4 +30,4 @@ const ReviewStar = ({ rating, setRating, hover, setHover }) => {
   );
 };
 
-export default ReviewStar;
+export default React.memo(ReviewStar);

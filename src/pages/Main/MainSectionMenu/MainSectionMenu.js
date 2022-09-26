@@ -72,4 +72,4 @@ function MainSectionMenu() {
   );
 }
 
-export default MainSectionMenu;
+export default React.memo(MainSectionMenu);

@@ -38,50 +38,35 @@
   }
 }
 
-.slideContainer {
-  height: 100vh;
-  object-fit: cover;
+.slideInfo {
+  position: absolute;
+  top: 200px;
+  width: 835px;
+  height: 100px;
+  padding-left: 5rem;
+  color: #fff;
 
-  .slideImg {
-    height: 100vh;
+  .title,
+  .issueNum {
+    padding-right: 1.25rem;
+    font-size: 1rem;
+  }
 
-    img {
-      width: 100%;
-      height: 100%;
-    }
+  div {
+    margin-bottom: 0.625rem;
+    font-size: 4rem;
+    line-height: 6rem;
+  }
 
-    .slideInfo {
-      position: absolute;
-      top: 200px;
-      width: 835px;
-      height: 100px;
-      padding-left: 5rem;
-      color: #fff;
+  p {
+    margin-bottom: 2.5rem;
+    line-height: 1.55rem;
+    word-break: keep-all;
+  }
 
-      .title,
-      .issueNum {
-        padding-right: 1.25rem;
-        font-size: 1rem;
-      }
-
-      div {
-        margin-bottom: 0.625rem;
-        font-size: 4rem;
-        line-height: 6rem;
-      }
-
-      p {
-        margin-bottom: 2.5rem;
-        line-height: 1.55rem;
-        word-break: keep-all;
-      }
-
-      .shopNow {
-        border-bottom: 1px solid #ffffff;
-        opacity: 0.6;
-        color: #fff;
-      }
-    }
-
+  .shopNow {
+    border-bottom: 1px solid #ffffff;
+    opacity: 0.6;
+    color: #fff;
   }
 }

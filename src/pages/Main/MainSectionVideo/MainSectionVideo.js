@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './MainSectionVideo.scss';
 
-export default function MainSectionVideo() {
+function MainSectionVideo() {
   const videoEl = useRef();
 
   useEffect(() => {
@@ -33,3 +33,5 @@ export default function MainSectionVideo() {
     </div>
   );
 }
+
+export default React.memo(MainSectionVideo);
