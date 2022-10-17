@@ -1,9 +1,9 @@
-import React from "react";
-import "./Footer.scss";
+import React from 'react';
+import './Footer.scss';
 
 function Footer() {
   return (
-    <div className="footerContainer">
+    <footer className="footerContainer">
       <div className="footerMain">
         <div className="footerLogo">K</div>
         <div className="footerMenu">
@@ -35,40 +35,40 @@ function Footer() {
         <li>이용약관</li>
         <li>site by Megazine K</li>
       </ul>
-    </div>
+    </footer>
   );
 }
 
 const FOOTER_DATA = [
   {
     id: 1,
-    title: "ABOUT US",
-    item1: "Company",
-    item2: "Contact",
-    item3: "Media & Service",
-    item4: "Partnership",
-    item5: "Stockists",
+    title: 'ABOUT US',
+    item1: 'Company',
+    item2: 'Contact',
+    item3: 'Media & Service',
+    item4: 'Partnership',
+    item5: 'Stockists',
   },
   {
     id: 2,
-    title: "CUSTOMER SERVICE",
-    item1: "Inquiry",
-    item2: "FAQ",
-    item3: "Notice",
+    title: 'CUSTOMER SERVICE',
+    item1: 'Inquiry',
+    item2: 'FAQ',
+    item3: 'Notice',
   },
   {
     id: 3,
-    title: "SNS",
-    item1: "Instagram",
-    item2: " Facebook",
-    item3: "Youtube",
+    title: 'SNS',
+    item1: 'Instagram',
+    item2: ' Facebook',
+    item3: 'Youtube',
   },
   {
     id: 4,
-    title: "FOLLOW US",
-    item1: "K Cast",
-    item2: "K Playlist",
-    item3: "Subscribe",
+    title: 'FOLLOW US',
+    item1: 'K Cast',
+    item2: 'K Playlist',
+    item3: 'Subscribe',
   },
 ];
 

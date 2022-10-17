@@ -18,8 +18,8 @@ function MainSlide({
         next
       </button>
       <div className="num">
-        <h1 className="prevNum">{slide}</h1>
-        <h1 className="nextNum">3</h1>
+        <span className="prevNum">{slide}</span>
+        <span className="nextNum">3</span>
       </div>
       <div className="slideInfo">
         <span className="title">{mainSlideData.main_category_name}</span>

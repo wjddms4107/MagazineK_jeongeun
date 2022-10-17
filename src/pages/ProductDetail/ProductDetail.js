@@ -21,7 +21,7 @@ const ProductDetail = ({ setModalState }) => {
   }, []);
 
   return (
-    <>
+    <article>
       {prdDetailData.map(prdDetailData => {
         return (
           <Detail
@@ -33,7 +33,7 @@ const ProductDetail = ({ setModalState }) => {
         );
       })}
       <Review />
-    </>
+    </article>
   );
 };
 export default ProductDetail;

@@ -2,10 +2,9 @@ import React from 'react';
 import './ReviewStar.scss';
 
 const ReviewStar = ({ rating, setRating, hover, setHover }) => {
-
   return (
-    <div className="reviewTitle">
-      <div className="review">REVIEW</div>
+    <section className="reviewTitle">
+      <h1 className="review">REVIEW</h1>
       <div className="reviewH1">이 Megazine에 대해 리뷰해주세요!</div>
       <div className="starRating">
         {[...Array(5)].map((star, index) => {
@@ -26,7 +25,7 @@ const ReviewStar = ({ rating, setRating, hover, setHover }) => {
         })}
       </div>
       <hr />
-    </div>
+    </section>
   );
 };
 

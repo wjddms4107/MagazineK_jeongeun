@@ -44,14 +44,14 @@ const Detail = ({ prdDetailData, product_id, setModalState }) => {
   ];
 
   return (
-    <div className="prdDetailPage">
+    <article className="prdDetailPage">
       <div className="prdDetailContainer">
         <div className="prdDetailLeft">
           <div className="prdCategoryBox">
             <span className="prdCategory">{category}</span>
             <span className="prdNumber">ISSUE NO.{issue_number}</span>
           </div>
-          <div className="prdTitle">{title}</div>
+          <h1 className="prdTitle">{title}</h1>
           <span className="prdPrice">₩{priceThousand},000</span>
           <div className="prdCount">
             <span onClick={minusOrderQuantity}>-</span>
@@ -105,7 +105,7 @@ const Detail = ({ prdDetailData, product_id, setModalState }) => {
       <div className="prdImg">
         <img src={product_image_url} alt="ARC" />
       </div>
-    </div>
+    </article>
   );
 };
 

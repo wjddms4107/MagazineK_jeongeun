@@ -21,7 +21,7 @@ function MainSectionMenu() {
   }, []);
 
   return (
-    <div className="mainSectionMenu">
+    <section className="mainSectionMenu">
       <p className="sectionTitle">shop</p>
       <span className="sectionMenu">
         <span className="mainMenu">
@@ -34,7 +34,7 @@ function MainSectionMenu() {
           <span className="subMenu2">Fashion</span>
         </span>
       </span>
-      <div className="menuInfo">
+      <article className="menuInfo">
         {mainMenuData.map(
           ({ id, img, main_category_name, issue_number, title, desc }, i) => {
             return (
@@ -58,7 +58,7 @@ function MainSectionMenu() {
             );
           }
         )}
-      </div>
+      </article>
       <div
         className="sectionShopLink"
         onClick={() => {
@@ -68,7 +68,7 @@ function MainSectionMenu() {
       >
         Shop<span className="Arrow">➡️</span>
       </div>
-    </div>
+    </section>
   );
 }
 

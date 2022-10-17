@@ -9,7 +9,7 @@ function MainSectionVideo() {
   }, []);
 
   return (
-    <div className="mainVideoSection">
+    <section className="mainVideoSection">
       <div className="mainVideo">
         <video
           loop
@@ -30,7 +30,7 @@ function MainSectionVideo() {
         </p>
         <span className="shopNow">SHOP NOW</span>
       </div>
-    </div>
+    </section>
   );
 }
 

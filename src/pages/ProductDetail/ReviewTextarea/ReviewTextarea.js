@@ -1,5 +1,5 @@
-import React from "react";
-import "./ReviewTextarea.scss";
+import React from 'react';
+import './ReviewTextarea.scss';
 
 const ReviewTextarea = ({ getCommentText, commentText, addReview }) => {
   return (

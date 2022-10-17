@@ -39,8 +39,8 @@ function Main() {
 
   return (
     <>
-      <div className="slideContainer">
-        <div className="slideImg">
+      <main className="slideContainer">
+        <section className="slideImg">
           <img src={`/images/main/mainSlide${slide}.jpg`} alt="mainSlide" />
           {mainSlideData.length > 0 && (
             <MainSlide
@@ -52,8 +52,8 @@ function Main() {
               slide={slide}
             />
           )}
-        </div>
-      </div>
+        </section>
+      </main>
       <MainSectionMenu />
       <MainSectionVideo />
     </>
